@@ -1,0 +1,12 @@
+requests
+feedparser
+beautifulsoup4
+readability-lxml
+lxml
+newspaper3k
+pillow
+moviepy
+snownlp
+gTTS
+python-dateutil
+PyYAML
