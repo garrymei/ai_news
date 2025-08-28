@@ -68,7 +68,7 @@ def main():
     per = total / n
 
     clips = [make_slide(it.get("image_path",""), it.get("title",""), it.get("summary",""), per) for it in items]
-    video = concatenate_videoclips(clips, method="compose").with_audio(audio)
+    video = concatenate_videoclips(clips, method="compose").set_audio(audio)
     date_str = get_today_str()
     out = f"output/video/{date_str}.mp4"
     video.write_videofile(out, fps=30, codec="libx264", audio_codec="aac", threads=4, preset="medium")

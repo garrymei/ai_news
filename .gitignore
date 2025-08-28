@@ -1,0 +1,40 @@
+# Python虚拟环境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 输出文件
+output/
+temp_slide.jpg
+*_frame_*.jpg
+debug_frame.jpg
+
+# 生成的图片资源（可选保留示例）
+assets/images/
+assets/generated_images/
+assets/ai_generated_images/
+# 保留智能生成的图片作为示例
+# assets/smart_generated/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local

@@ -42,11 +42,6 @@ sources:
       body: "article, .content, .content-detail, .article-content"
       image: "article img, .content img, .content-detail img, .article-content img"
   - name: 智东西 Zhidx
-    rss: ""
-    url: "https://www.zhidx.com/"
+    rss: "https://www.zhidx.com/feed"
+    url: ""
     articles_per_day: 2
-    selectors:
-      article_link: "a[href*='/p/']"
-      title: "h1.article-title, h1.post-title, h1"
-      body: "article, .content, .post-content, .article-content"
-      image: "article img, .content img, .post-content img, .article-content img"
